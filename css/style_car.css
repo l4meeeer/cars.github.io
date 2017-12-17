@@ -1,0 +1,35 @@
+h3 {
+	font-family: century schoolbook;
+	margin-top: 90px;
+	background: none;
+	text-align: center;
+	color: white;
+	margin-bottom: 0;
+}
+
+p {
+	font-family: century schoolbook;
+	padding-top: 5px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5px;
+	text-align: center;
+	color: white;
+	-webkit-margin-after:0;
+	-webkit-margin-before:0;
+}
+
+div.scroll-table {
+  margin-top: 2px;
+  width: 100%;
+  overflow: auto;
+  height: 400px;
+}
+
+br {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}

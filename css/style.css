@@ -1,0 +1,94 @@
+body {
+	background-image: url(../img/main_car.jpg);
+	background-size: cover;
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+    height: 100%;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	color: white;
+}
+
+a {
+	color: #000;
+	font-family: monospace;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+input {
+	width: 85%;
+    font-size: 100%;
+	text-align: center;
+	padding: 3px 5px;
+	border: 1px solid #ec1212;
+	border-radius: 3px;
+	box-shadow: 4px 4px 20px 2px rgba(234, 8, 8, 0.6);
+}
+
+.list {
+    left: 46%;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 15px;
+    opacity: 0;
+    padding: 3px 2px;
+    position: absolute;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 1px 1px 13px 0px rgb(233, 37, 106);
+    border-radius: 2px;
+    -webkit-transition: opacity 0.8s;
+    transition: opacity 0.9s;
+    overflow: auto;
+}
+
+.list li {
+	padding: 3px 5px;
+	cursor: pointer;
+}
+/*
+ng-pristine ng-untouched ng-valid{
+    width: 160px;
+    height: 20px;
+}
+*/
+
+.list li:hover {
+	background: rgba(82, 222, 228, 0.71);;
+}
+
+.show .list { 
+	margin-left: 0;
+	opacity: 0.7;
+}
+
+.wrap { 
+	margin: auto; 
+	margin-top: 200px; 
+	text-align: center; 
+}
+
+.container {
+	width: 15%;
+	display:inline-block;
+}
+
+h1 {
+	color: #3A262F;
+	font-weight:normal; 
+}
+
+kbd {
+	display: block;
+	margin-bottom:15px;
+}
